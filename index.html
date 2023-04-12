@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang=" en">
+<head>
+    <meta charset ="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Parv Jain Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://kit.fontawesome.com/cffc31814f.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head> 
+
+
+<body>
+    <!-- <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div> -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/20230407_150204_0000.png" class="logo" >
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#portfolio">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p> Full-Stack Developer</p>
+                <h1>Hi, I'm <span>Parv</span> <br>Jain From India</h1>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/IMG_20230407_151034.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>  <!--I Have to write about myself--> </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('certificate')">Certificate</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <div class="skills-content">
+                            <h3>Front-End Developer</h3>
+                            <div class="skill-data">
+                                <div>
+                                    <!--<i class="fa-brands fa-css3-alt"></i>-->
+                                    <img src="images/programming-language-css-3.png">
+                                    <h3>CSS</h3>
+                                    <p>Intermediate</p>
+                                </div> 
+                                <div class="skill-data-2">
+                                    <!--<i class="fa-brands fa-html5"></i>-->
+                                    <img src="images/programming-language-html-5.png">
+                                    <h3>HTML</h3>
+                                    <p>Intermediate</p>
+                                </div> 
+                                <div>
+                                    <!--<i class="fa-brands fa-square-js"></i>-->
+                                    <img src="images/java-script.png">
+                                    <h3>Java-script</h3>
+                                    <p>Intermediate</p>
+                                </div> 
+                           </div>
+                        </div>
+                        <div class="skills-content">
+                            <h3>Back-End Developer</h3>
+                            <div class="skill-data">
+                                <div>
+                                    <!--<i class="fa-brands fa-node-js"></i>-->
+                                    <img src="images/nodesj.png">
+                                    <h3>Node.js</h3>
+                                    <p>Intermediate</p>
+                                </div> 
+                                <div >
+                                    <!--<i class="fa-brands fa-python"></i>-->
+                                    <img src="images/python.png">
+                                    <h3>Python</h3>
+                                    <p>Intermediate</p>
+                                </div> 
+                                <div>
+                                    <!--<i class="fa-brands fa-square-js"></i>-->
+                                    <img src="images/mongodb.png">
+                                    <h3>Mango-db</h3>
+                                    <p>Basic</p>
+                                </div> 
+                                <div>
+                                    <!--<i class="fa-brands fa-square-js"></i>-->
+                                    <img src="images/c+.png">
+                                    <h3>C++</h3>
+                                    <p>Intermediate</p>
+                                </div> 
+                                <div>
+                                    <img src="images/c.png">
+                                    <h3>C</h3>
+                                    <p>Intermediate</p>
+                                </div> 
+                                <div>
+                                    <img src="images/file-sql.png">
+                                    <h3>SQL</h3>
+                                    <p>Basic</p>
+                                </div> 
+                                <div>
+                                    <img src="images/image.png">
+                                    <h3>ArangoDb</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                                <div>
+                                    <img src="images/image (1).png">
+                                    <h3>AWS S3</h3>
+                                    <p>Basic</p>
+                                </div>
+                                <div>
+                                    <img src="images/image (2).png">
+                                    <h3>JWT</h3>
+                                    <p>Basic</p>
+                                </div>
+                           </div>
+                        </div>
+
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Current</span><br>B-tech in CSE from SRM University of science and technology</li>
+                            <li><span>2020</span><br>12th Class from Maharana Mewar Public School,Udaipur,Rajasthan</li>
+                            <li><span>2018</span><br>10th Class from St.Paul's Sr. Sec. School,Banswara,Rajasthan</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="certificate">
+                        <ul>
+                            <li><span>Orcale Database</span><br><a href="images/orcale certificate.pdf ">Click Here</a></li>
+                            <li><span>Data structure and algorithm using C++ and C </span><br><a href="images/udemy certificate.pdf">Click Here</a></li>
+                            <li><span>AWS Academy Cloud Operations </span><br><a href="images/AWS certificate.pdf">Click Here</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div id="experience">
+        <div class="container">
+            <h1 class="sub-title">My Experience</h1>
+            <div class="experience-list">
+                <div class="experience-list-1">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Backend developer</h2>
+                    </div>
+                    <div><p>Since August 2022, I have been interning as a backend developer at ZOOKED and have gained experience in diverse projects.<br>
+                        These include:</p>
+                        <li>Developing APIs with various functionalities using Node.js and arangodb.</li>
+                        <li>Implementing JWT authentication and authorization between microservices.</li>
+                        <li>Saving parameters in Amazon Parameter Store and integrate them to the website.</li>
+                        <li>Developing an API to generate PDFs, save them in S3, and provide download links.</li>
+                        <li>Currently, I am working on integrating Cashfree payment into the website</li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1> 
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>I have to add</h3>
+                        <p> in future</p>
+                        <a href="#"><i class="fas fa-external-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>I have to add</h3>
+                        <p> in future </p>
+                        <a href="#"><i class="fas fa-external-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>I have to add</h3>
+                        <p> in future</p>
+                        <a href="#"><i class="fas fa-external-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+
+        </div>
+    </div>
+
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> <a href="mailto: parvjain2401@gmail.com">Parjain2401@gmail.com</a></p>
+                    <p><i class="fa-solid fa-square-phone"></i> <a href="tel: 9462408329">+91 9462408329</a></p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/parv_jain_24/?igshid=ZDdkNTZiNTM%3D"><i class="fa-brands fa-instagram"></i></i></a>
+                        <a href="https://www.linkedin.com/in/parv-jain-530a98218/"><i class="fa-brands fa-linkedin"></i></i></a>
+                        <a href="https://wa.me/9462408329" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                    <a href="images/Parv Resume.pdf.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" require>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button onclick="SubForm()" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright ⓒ Parv Jain. All rights reserved</p>
+        </div>
+    </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+        
+        function opentab(tabname){          
+            for(tablink of tablinks){                             
+                tablink.classList.remove("active-link");   //colour lines which come on clicking
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget. classList.add("active-link")
+             document.getElementById(tabname).classList.add("active-tab")
+        }
+
+    </script>
+
+    <script>
+        var side = document.getElementById("sidemenu");
+
+        function openmenu(){
+            side.style.right = "0";
+        }
+        function closemenu(){
+            side.style.right = "-200px";
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwOJiaSUbYcZaZFTVneso3yZ6VE5ArQLGQNHXYwOx4Ro8ubBZ8b-OecOoagE8ZQzdigmg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const smg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully!!"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+<!-- <script>
+    $(document).ready(function(){
+        $(window).scroll(function(){
+            if(this.scrollY>500){
+                $('.scroll-up-btn').addClass("show");
+            }
+            else{
+                $('.scroll-up-btn'.removeClass("show"))
+            }
+        });
+
+        $('.scroll-up-btn').click(function(){
+            $('html').animate({scrollTop: 0});
+        })
+    })
+
+</script> -->
+</body>
+
+</html>
