@@ -16,7 +16,7 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(images/Picsart_23-04-07_19-25-06-282.jpg);
+    background-image: url(images/Picsart_23-08-26_23-38-27-970.jpg);
     background-size: cover;
     background-position: center; 
 }
@@ -434,7 +434,7 @@ nav .fas{
 }
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(images/phone-background.png);
+        background-image: url(images/Picsart_23-08-27_07-06-32-662.jpg);
     }
     .header-text{
         margin-top: 100%;
