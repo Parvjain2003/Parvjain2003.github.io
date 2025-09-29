@@ -72,8 +72,8 @@ nav ul li{
 
 nav ul li a{
     color: #fff;
-    text-decoration: none;
-    font-size: 18px;
+    text-decoration:none;
+    font-size: 22px;
     position: relative;
 }
 nav ul li a::after{
@@ -247,6 +247,8 @@ nav ul li a:hover::after{
     margin: 15px;
     vertical-align: middle;
     font-size: 15px;
+}
+ .experience-list-1 #card-heading{
     text-align: center;
 }
 .experience-list-1 div i{
