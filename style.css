@@ -249,12 +249,12 @@ nav ul li a:hover::after{
     font-size: 15px;
 }
  .experience-list-1 #card-heading{
-    align-items: center;
+    position: center;
 }
 .experience-list-1 div i{
     font-size: 40px;
     margin-bottom: 30px;
-    position: relative;
+    position: center;
     left: 60px;
 }
 .experience-list-1 div h2{
